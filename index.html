@@ -5,11 +5,30 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="styles.css">
-   <title>Snake Project</title>
+   <title>S N E C C</title>
+   <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
+   <link rel="manifest" href="/icon/site.webmanifest">
 </head>
 <body>
-   <!-- <div class="cover"></div> -->
+   <div class="cover">
+      <h1 class="game-title"> 🐍 Laruin mo ang ahas ko! 🐍</h1>
+      <p> - Ang ahas ko ay nalulungkot, kaya nakikiusap ako na laruin mo ito.</p>
+      <p> - Kapag nilaro mo nang maayos ay lalaki ito.</p>
+      <button class="btn start-game">LARUIN</button>
+   </div>
    <div class="board">
+      <div class="try-again hidden">
+         <button class="btn restart-game">TRY AGAIN?</button>
+      </div>
+   </div>
+   <div class="game-stats">
+      <h2 class="game-status">LET'S PLAY!</h2>
+      <p class="score">YOUR SCORE: 0</p>
+      <p class="highscore">HIGHSCORE: 0</p>
+      <h2>YOUR PREVIOUS SCORES</h2>
+      <textarea name="leaderboard" id="leaderboard"></textarea>
    </div>
    <script src="app.js"></script>
 </body>
