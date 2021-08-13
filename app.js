@@ -52,7 +52,7 @@ if (localStorage.getItem('previousScores')) {
 }
 
 // GET CURRENT HIGHSCORE FROM LOCAL STORAGE
-if (localStorage.getItem('highscore')) highscore.textContent = `HIGHSCORE: ${localStorage.getItem('highscore')}`;
+if (localStorage.getItem('sneccHighscore')) highscore.textContent = `HIGHSCORE: ${localStorage.getItem('sneccHighscore')}`;
 
 
 
@@ -82,7 +82,7 @@ function gameClock(currentTime) {
       if (currentScore > currentHighscore) {
 
          highscore.textContent = `HIGHSCORE: ${currentScore}`;
-         localStorage.setItem('highscore', currentScore);
+         localStorage.setItem('sneccHighscore', currentScore);
 
       }
       
