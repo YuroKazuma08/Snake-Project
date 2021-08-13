@@ -1,0 +1,42 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: gray;
+}
+
+.board {
+   position: absolute;
+   margin: 20px;
+   width: 604px;
+   height: 604px;
+   border: 2px solid black;
+   overflow: hidden;
+}
+
+.cover {
+   position: absolute;
+   margin: 20px;
+   width: 604px;
+   height: 604px;
+   background-color: rgba(25, 25, 25, 0.3);
+}
+
+#food {
+   position: absolute;
+   width: 12px;
+   height: 12px;
+   background-color: yellow;
+   border: 1px solid black;
+}
+
+.snake {
+   position: absolute;
+   width: 12px;
+   height: 12px;
+   background-color: green;
+   border: 1px solid black;
+}
